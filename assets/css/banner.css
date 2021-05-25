@@ -1,0 +1,28 @@
+.banner{
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url(../img/complementos/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+.banner .pointer.active{
+    background-color: #b28756;
+}
